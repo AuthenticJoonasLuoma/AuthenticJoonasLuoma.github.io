@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <a href="https://www.flaticon.com/free-icons/portfolio" title="portfolio icons">Portfolio icons created by Freepik - Flaticon</a> -->
+    <link rel="shortcut icon" href="portfolio1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/skillBar.css">
+    <link rel="stylesheet" href="css/mobileStyles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Software Developer portfolio"> 
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Joonas Luoma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joonas Luoma - Portfolio</title>
+</head>
+<body>
+    <!--Navbar jossa sticky-class-->
+    <nav class="sticky">
+        <ul>
+            <li style="float: left;"><a href="#top">Joonas Luoma</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!--Header alkaa tästä-->
+<header id="top">
+        <div class="flexContUpper">
+            <div class="upperInfo">
+                <h1>Joonas Luoma</h1>
+                <p id="softwareDev">Software Developer <span>Student</span></p>
+                <p id="fromFin">From Tampere, Finland</p>
+            </div>
+        </div>
+
+        <div class="flexContLower">
+            <div class="shortInfo">
+                <p>I am Joonas, 32 years old first-year software developer 
+                    student currently located in Tampere, Finland. </p>
+                <p>I'm interested in front-end development and I'm eager
+                    to get a job in that field. </p>
+                <p>I'm always motivated to learn something new and try
+                    to hone the skills I have acquired to near perfection.</p>
+            </div>
+
+            <img src="images/cv-photo.png" alt="cv-picture">
+
+            <!--piilotettu desktop-näkymässä-->
+            <div class="shortInfoMedia">
+                <p>I am Joonas, 32 year old first-year software developer 
+                    student currently located in Tampere, Finland. </p>
+                <p>I'm interested in front-end development and I'm eager
+                    to get a job in that field. </p>
+                <p>I'm always motivated to learn something new and try
+                    to hone the skills I have acquired to near perfection.</p>
+            </div>
+
+        </div>
+
+</header>
+    <!--Header loppuu tähän-->
+
+<main id="about"> <br><br><br><br><br><br>
+    <section> <!-- Flex container -->
+        <div class="about">
+            <!--About me tarkemmat tiedot-->
+            <div id="aboutMeId">
+                <h2 class="headingPoster" style="margin: 0 auto; position: relative; bottom: 0.5em;"><span class="pink">&lt;</span> About <span class="orange">Me</span> &gt;</h2>
+                <p>Hello there! My name is Joonas Luoma, 32-year-old former ER Nurse, current Software Dev student. 
+                    I've had interest in technology since I was a little boy and in year 2021 I figured IT engineering might just be <em>the</em> thing for me.
+                    So, I made the first steps towards my dream job, left healthcare industry and started studying software development in Tredu, Tampere.</p>
+
+                <p>As a person I consider myself to be precise, quick learner, approachable and overall just a fun guy to be around with. I update my skills continuously
+                    and try to keep my know-how in pace of the constantly evolving field of technology by reading a lot of fact-based journalism from magazines and from the internet and of course by doing a little programming 
+                    in my freetime.</p>
+
+                <p>I've had experience in many different fields over the past 15 years, for example construction, transport, ski resort, office and healthcare respectively. In the future I see myself working in software engineering.
+                    <strong>At the moment front-end feels like it's the most approachable option</strong> in the field but I'm also interested in back-end development.
+                </p> 
+
+                <p>In my free time I like to do all kinds of sports but especially skateboarding in the summer and snowboarding in the winter. I play bass in a band called 'Eetu ja Tuukka Avok&#228;mmenell&#228;' and I like to compose 
+                    my own music from time to time as a hobby. I play a few other instruments too and have a small home studio at disposable.</p>
+            </div>
+        </div> <hr>
+            <div class="aboutNestedContainer">
+                <!--Koulutus-osuuden div-->
+                <div class="aboutNestedItem" id="education">
+                    <h3 class="smallerPoster">Edu<span class="pink">cat</span>ion</h3>
+                    <ul>
+                        <li><b>Software Developer</b>, 2021-2023, Tredu, Vocational Qualification in Information and Communications Technology</li> 
+                        <li><b>Registered Nurse</b>, 2018, JAMK, Bachelor's Degree Programme in Nursing</li> 
+                        <li><b>Vocational Qualification in Business</b>, 2009, KSAO</li> 
+                    </ul>
+                </div>
+                
+                <!--Kiinnostuksen kohteet-->
+                <div class="aboutNestedItem" id="interests">
+                    <h3 class="smallerPoster">Inte<span class="yellow">rest</span>s</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-heart" style="font-size: 0.7em; padding-left: 15%;"></i> Programming</li>
+                        <li><i class="fa-solid fa-heart" style="font-size: 0.7em; padding-left: 15%;"></i> Playing in a band</li>
+                        <li><i class="fa-solid fa-heart" style="font-size: 0.7em; padding-left: 15%;"></i> Skateboarding</li>
+                        <li><i class="fa-solid fa-heart" style="font-size: 0.7em; padding-left: 15%;"></i> Snowboarding</li>
+                        <li><i class="fa-solid fa-heart" style="font-size: 0.7em; padding-left: 15%;"></i> Gym</li>
+                        <li><i class="fa-solid fa-heart" style="font-size: 0.7em; padding-left: 15%;"></i> Cycling</li> 
+                        <li><i class="fa-solid fa-heart" style="color: red; font-size: 1em;"></i> And.. Playing with my cat and puppy</li>
+                    </ul>
+                </div>
+            </div> <hr>
+    </section>
+<!-- Tässä työhistorian aikajana -->
+    <section class="workingHistory">
+        <h2 class="headingPoster" style="position: relative; bottom: 1em;">&lt; <span class="yellow">My</span> Work Hi<span class="blue">story</span> &gt;</h2>
+        <div class="timeline">
+            <div class="container left">
+              <div class="date">2008</div>
+              <i class="icon fa-solid fa-person-digging"></i>
+              <div class="content">
+                <h2><span class="yellow">Construction</span> worker</h2>
+                <p>
+                  I had a summer job in Borr och såg Ab, located in Stockholm, Sweden from June 2008 to August 2008. We prepared a shaft for a new elevator. Construction project was to transform an old apartment building in to a hotel.
+                </p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="date">2009</div>
+              <i class="icon fa-solid fa-person-rifle"></i>
+              <div class="content">
+                <h2><span class="orange">Military</span> service</h2>
+                <p>
+                  I did my military service in Vekaranj&#228;rvi, Kouvola from July 2009 to July 2010. I served for a year as a corporal and specialized in medicine.
+                </p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="date">2010</div>
+              <i class="icon fa-solid fa-truck"></i>
+              <div class="content">
+                <h2><span class="blue">Truck</span> driver</h2>
+                <p>
+                  I worked in a small transport firm Muutot ja kuljetukset Heikki Hietala from July 2010 to November 2012. Firm was a subcontractor for Kiitolinja.
+                </p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="date">2012</div>
+              <i class="icon fa-solid fa-person-skiing"></i>
+              <div class="content">
+                <h2><span class="blueish">Ski resort</span> worker</h2>
+                <p>
+                  I worked one season at a local ski resort Mielakka in Kouvola from December 2012 to March 2013. Job description included customer service and all kinds of problem solving at the ski resort.
+                </p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="date">2013</div>
+              <i class="icon fa-solid fa-computer"></i>
+              <div class="content">
+                <h2>ER <span class="yellow">secretary</span></h2>
+                <p>
+                  I worked as a ER secretary from May 2013 to May 2015 (many contracts) in Pohjois-kymen sairaala, Kouvola. 
+                </p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="date">2016</div>
+              <i class="icon fa-solid fa-user-nurse"></i>
+              <div class="content">
+                <h2><span class="orange">Supervisor</span> for mentally ill</h2>
+                <p>
+                  I worked in two different municipal facilities in Kouvola that offered long term mental health services. I worked there from June 2016 to March 2017. 
+                </p>
+              </div>
+            </div>
+            <div class="container left">
+                <div class="date">2017</div>
+                <i class="icon fa-solid fa-user-nurse"></i>
+                <div class="content">
+                  <h2><span class="blue">Nurse</span></h2>
+                  <p>
+                    I worked as a Nurse from June 2017 to December 2017 in Pohjois-kymen sairaala, Kouvola. 
+                  </p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="date">2018</div>
+                <i class="icon fa-solid fa-user-nurse"></i>
+                <div class="content">
+                  <h2><span class="pink">Registered Nurse</span></h2>
+                  <p>
+                    ER nurse in KSks Jyv&#228;skyl&#228;, Finland. I started working in 2018 and I'm now on study leave because of my software developer studies.
+                  </p>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="date">2021</div>
+                <i class="icon fa-solid fa-user-nurse"></i>
+                <div class="content">
+                    <h2><span class="pink">Registered Nurse</span></h2>
+                    <p>
+                      ER nurse in Tays Acuta, Tampere Finland. I took a leave of abscence from Jyv&#228;skyl&#228; ER to get new experiences from a different ER. I worked in Acuta from May 2021 to October 2021.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Work History loppuu tähän-->
+    </section>
+    <hr>
+    <!--skills alkaa-->
+    <section>
+            <h2 class="headingPoster" style="margin-bottom: 0;"><span class="orange">&lt;</span> Skills <span class="pink">&gt;</span></h2>
+        
+    <div id="skills-container">  <!-- Skillbar -->
+
+        <div class="skills">
+            <ul>
+                <li><span class="html5"></span><em class="good">HTML</em></li>
+                <li><span class="css3"></span><em class="good">CSS</em></li>
+                <li><span class="wordpress"></span><em class="medium">Wordpress</em></li>             
+                <li><span class="sql"></span><em class="medium">SQL</em></li>
+                <li><span class="php"></span><em class="medium">PHP</em></li>
+                <li><span class="js"></span><em class="notgood">Javascript</em></li>
+                <li><span class="react"></span><em class="notgood">React</em></li>
+                <li><span class="python"></span><em class="notgood">Python</em></li>
+                
+            </ul>
+        </div>
+    </div>  
+    <!--skills loppuu-->
+    </section>  <hr id="portfolio"><br>
+
+
+    <!--Portfolio-->
+    <section id="porfolioContainer">   
+        <div class="portfolioItem textItem">
+            <h2 class="headingPoster">&lt; <span class="orange">P</span>o<span class="orange">r</span>tf<span class="orange">o</span>lio &gt;</h2>
+            <div class="text">
+                <p>I have just started my journey to become a Software Developer, so for that reason my portfolio still is somewhat lackluster.</p>
+                <p>But.. I thought maybe I'd put here some of the exercises that I have done in a web development course of JAMK!</p>
+            </div>
+        </div>  
+        <div class="portfolioItem item1">
+            <p><a target="_blank" href="https://student.labranet.jamk.fi/~AC7883/web_kehitys/web_tekniikat/harj3/"><img class="porfolioImg" src="images/portfolio1.jpg" alt="portfolio exercise"></a></p>
+            <p>First portfolio exercise</p>
+        </div>
+        <div class="portfolioItem item2">
+            <p><a target="_blank" href="https://student.labranet.jamk.fi/~AC7883/web_kehitys/web_tekniikat/harj4/"><img class="porfolioImg" src="images/layout.jpg" alt="Layout exercises"></a></p>
+            <p>Layout exercise</p>
+        </div>
+        <div class="portfolioItem item3">
+            <p><a target="_blank" href="https://student.labranet.jamk.fi/~AC7883/web_kehitys/web_tekniikat/harj7/"><img class="porfolioImg" src="images/media.jpg" alt="media exercise"></a></p>
+            <p>Media in a web page exercise</p>
+        </div>   
+    </section>
+</main>
+<!--Contact alkaa-->
+    <section id="contact">
+        <div id="contactPage">
+            <h2 id="contactHeading">&lt; Contact &gt;</h2>
+            <p style="font-size: 2em;">Did you get interested?</p>
+            <p style="font-size: 1.2em;">Please contact me through LinkedIn, Email or Github</p>
+            <p style="font-size: 1.2em; padding-bottom: 2em;">Let's talk more!</p>
+
+            <div id="contactLinks">
+                <a href="https://www.linkedin.com/in/joonas-luoma-542a1b225/"><i class="fa-brands fa-linkedin" style="font-size: 3em;"></i></a>
+                <a href="mailto:luoma.joonas@gmail.com" title="luoma.joonas@gmail.com"><i class="fa-solid fa-at" style="font-size: 3em;"></i></a>
+                <a href="https://github.com/AuthenticJoonasLuoma"><i class="fa-brands fa-github" style="font-size: 3em;"></i></a>
+            </div>
+        </div>
+    </section>
+<!--Contact loppuu ja tästä alkaa footer-->
+    <footer>
+            Joonas Luoma 2022 <span><i class="fa-solid fa-at" style="font-size: 1em; padding-left: 2em; padding-right: 0.5em;"></i>luoma.joonas@gmail.com</span>
+    </footer>
+
+
+
+<script src="https://kit.fontawesome.com/bca29e83f1.js" crossorigin="anonymous"></script> <!--fontawesomen scripti-->
+</body>
+</html>
